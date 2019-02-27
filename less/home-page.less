@@ -14,6 +14,11 @@
     color: @white;
     font-size: 5rem;
     font-weight: bold;
+    @media @mobile {
+      font-size: 3rem;
+      left: 20px;
+      bottom: 10px;
+    }
   }
 }
 .top-content {
@@ -21,10 +26,17 @@
     .first-mixins;
     width: 100%;
     margin: 4% 0;
+    @media @mobile {
+      display: flex;
+      flex-direction: column-reverse;
+    }
     .text-content {
       .second-mixins;
       width: 45%;
       margin: 3% 0;
+      @media @mobile {
+        width: 100%;
+      }
       p {
         line-height: 1.6;
       }
@@ -33,10 +45,17 @@
         width: 40%;
         padding: 4% 6%;
         text-align: center;
+        @media @mobile {
+          width: 100%;
+          margin-top: 3%;
+        }
       }
     }
     img {
       width: 45%;
+      @media @mobile {
+        width: 100%;
+      }
     }
   }
 }
@@ -45,10 +64,17 @@
     .third-mixins;
     width: 100%;
     margin: 4% 0;
+    @media @mobile {
+      display: flex;
+      flex-direction: column-reverse;
+    }
     .text-content {
       .second-mixins;
       width: 45%;
       margin: 3% 0;
+      @media @mobile {
+        width: 100%;
+      }
       p {
         line-height: 1.6;
       }
@@ -57,10 +83,17 @@
         width: 40%;
         padding: 4% 6%;
         text-align: center;
+        @media @mobile {
+          width: 100%;
+          margin-top: 3%;
+        }
       }
     }
     img {
       width: 45%;
+      @media @mobile {
+        width: 100%;
+      }
     }
   }
 }
@@ -81,10 +114,24 @@
       font-size: 1.8rem;
       position: absolute;
       top: 39%;
+      @media @mobile {
+        width: 90%;
+        padding: 10% 15%;
+        left: 5%;
+        top: 27%;
+        font-size: 2.8rem;
+      }
     }
     .button1,
     .button3 {
       left: 70%;
+      @media @mobile {
+        width: 90%;
+        padding: 10% 15%;
+        left: 5%;
+        top: 27%;
+        font-size: 2.8rem;
+      }
     }
     .cover-image1 {
       background-image: url(../img/home/home-villas-img.png);
@@ -93,11 +140,18 @@
       background-position: center;
       width: 100%;
       margin: 8% 0 8% 0;
+      @media @mobile {
+        margin-bottom: 25%;
+      }
     }
     p {
       width: 50%;
       text-align: justify;
       margin: 2% 25%;
+      @media @mobile {
+        margin: 2% 15%;
+        width: 70%;
+      }
     }
   }
   .cover-image2 {
@@ -107,6 +161,9 @@
     background-position: center;
     width: 100%;
     margin: 8% 0 8% 0;
+    @media @mobile {
+      margin-bottom: 25%;
+    }
   }
   .cover-image3 {
     background-image: url(../img/home/home-the-blocks-img.png);
@@ -115,5 +172,48 @@
     background-position: center;
     width: 100%;
     margin: 8% 0 8% 0;
+    @media @mobile {
+      margin-bottom: 25%;
+    }
+  }
+}
+// SERVICES-PAGE
+.services-top-content {
+  margin: 4% 0;
+}
+.tabs {
+  .tabs-links {
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 0 3% 0;
+    .tabs-link {
+      border: 2px solid @blackish;
+      padding: 2% 5%;
+      font-size: 1.9rem;
+      cursor: pointer;
+      &:hover {
+        background-color: @tabs-bc;
+      }
+    }
+  }
+}
+.tabs {
+  .tabs-items {
+    .tabs-item {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      .tabs-item-content {
+        width: 58%;
+        p {
+          text-align: justify;
+          line-height: 1.6;
+          padding-top: 2%;
+        }
+      }
+    }
+    .col-12 {
+      display: none;
+    }
   }
 }

@@ -7,9 +7,17 @@ footer {
     font-family: "Roboto";
     margin-top: 6%;
     .fourth-mixins;
+    @media @mobile {
+      display: flex;
+      flex-direction: column;
+    }
     .email-content {
       width: 35%;
       line-height: 1.6;
+      @media @mobile {
+        width: 100%;
+        margin: 1% 0 0 5%;
+      }
       .email-input {
         width: 77%;
         padding: 2% 0;
@@ -23,6 +31,10 @@ footer {
     .california {
       width: 14%;
       line-height: 1.6;
+      @media @mobile {
+        width: 100%;
+        margin: 3% 0 0 5%;
+      }
     }
     p {
       color: @white;
@@ -32,5 +44,9 @@ footer {
   .copyright {
     text-align: center;
     color: @white;
+    @media @mobile {
+      text-align: left;
+      margin-left: 5%;
+    }
   }
 }
