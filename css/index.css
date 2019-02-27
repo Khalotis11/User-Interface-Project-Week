@@ -169,6 +169,11 @@ h3 {
   background-color: #98a4af;
   padding: 1% 5%;
 }
+@media (max-width:500px) {
+  .nav-bar {
+    padding: 3% 5%;
+  }
+}
 .nav-bar h2 {
   color: white;
   font-size: 3rem;
