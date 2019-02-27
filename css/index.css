@@ -209,6 +209,42 @@ h3 {
 .hidden {
   display: none;
 }
+footer {
+  background-color: #828282;
+}
+footer .footer {
+  width: 100%;
+  padding: 5% 0;
+  font-family: "Roboto";
+  margin-top: 6%;
+  display: flex;
+  justify-content: space-around;
+}
+footer .footer .email-content {
+  width: 35%;
+  line-height: 1.6;
+}
+footer .footer .email-content .email-input {
+  width: 77%;
+  padding: 2% 0;
+  font-size: 1.6rem;
+  border-radius: 6px;
+  margin-top: 1%;
+}
+footer .footer .new-york,
+footer .footer .florida,
+footer .footer .california {
+  width: 14%;
+  line-height: 1.6;
+}
+footer .footer p {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+footer .copyright {
+  text-align: center;
+  color: #ffffff;
+}
 .main-image {
   position: relative;
 }
