@@ -133,6 +133,33 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.container {
+  font-size: 1.6rem;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+p {
+  font-family: Roboto, Arial, sans-serif;
+  line-height: 1.8;
+  font-size: 1.7rem;
+}
+h1 {
+  font-weight: Bold;
+  font-size: 3rem;
+  margin-bottom: 3%;
+}
+h3 {
+  font-size: 2rem;
+  color: #ffffff;
+  font-weight: Bold;
+  margin-bottom: 1%;
+}
 .nav-bar {
   position: fixed;
   z-index: 1;
