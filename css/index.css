@@ -209,3 +209,123 @@ h3 {
 .hidden {
   display: none;
 }
+.main-image {
+  position: relative;
+}
+.main-image .jumbotron-image {
+  width: 1425px;
+  max-width: 100%;
+}
+.main-image h2 {
+  position: absolute;
+  bottom: 0;
+  bottom: 20px;
+  left: 200px;
+  letter-spacing: 2px;
+  line-height: 1.9;
+  color: #ffffff;
+  font-size: 5rem;
+  font-weight: bold;
+}
+.top-content .first-top-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 4% 0;
+}
+.top-content .first-top-content .text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 45%;
+  margin: 3% 0;
+}
+.top-content .first-top-content .text-content p {
+  line-height: 1.6;
+}
+.top-content .first-top-content .text-content .button {
+  border: 1px solid #222222;
+  width: 40%;
+  padding: 4% 6%;
+  text-align: center;
+}
+.top-content .first-top-content img {
+  width: 45%;
+}
+.top-content .second-top-content {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 100%;
+  margin: 4% 0;
+}
+.top-content .second-top-content .text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 45%;
+  margin: 3% 0;
+}
+.top-content .second-top-content .text-content p {
+  line-height: 1.6;
+}
+.top-content .second-top-content .text-content .button {
+  border: 1px solid #222222;
+  width: 40%;
+  padding: 4% 6%;
+  text-align: center;
+}
+.top-content .second-top-content img {
+  width: 45%;
+}
+.middle-content h1 {
+  margin: 2% 0;
+}
+.middle-content .middle-text-content {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.middle-content .middle-text-content .middle-button {
+  width: 30%;
+  padding: 3% 6%;
+  text-align: center;
+  letter-spacing: 0.7rem;
+  background-color: #d8d8d8;
+  font-size: 1.8rem;
+  position: absolute;
+  top: 39%;
+}
+.middle-content .middle-text-content .button1,
+.middle-content .middle-text-content .button3 {
+  left: 70%;
+}
+.middle-content .middle-text-content .cover-image1 {
+  background-image: url(../img/home/home-villas-img.png);
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  margin: 8% 0 8% 0;
+}
+.middle-content .middle-text-content p {
+  width: 50%;
+  text-align: justify;
+  margin: 2% 25%;
+}
+.middle-content .cover-image2 {
+  background-image: url(../img/home/home-outskirts-img.png);
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  margin: 8% 0 8% 0;
+}
+.middle-content .cover-image3 {
+  background-image: url(../img/home/home-the-blocks-img.png);
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  margin: 8% 0 8% 0;
+}
