@@ -408,7 +408,7 @@ footer .copyright {
   }
 }
 .middle-content h1 {
-  margin: 2% 0;
+  margin-top: 7%;
 }
 .middle-content .middle-text-content {
   display: flex;
@@ -498,6 +498,10 @@ footer .copyright {
     margin-bottom: 25%;
   }
 }
+.main-image .services-image {
+  width: 1425px;
+  max-width: 100%;
+}
 .services-top-content {
   margin: 4% 0;
 }
@@ -513,7 +517,7 @@ footer .copyright {
   cursor: pointer;
 }
 .tabs .tabs-links .tabs-link:hover {
-  background-color: #5F9FB9;
+  background-color: #5f9fb9;
 }
 .tabs .tabs-items .tabs-item {
   width: 100%;
