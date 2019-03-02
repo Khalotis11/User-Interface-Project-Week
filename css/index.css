@@ -530,13 +530,15 @@ footer .copyright {
   justify-content: space-between;
 }
 .tabs .tabs-items .tabs-item .tabs-item-content {
-  width: 58%;
+  width: 48%;
 }
 .tabs .tabs-items .tabs-item .tabs-item-content p {
   text-align: justify;
   line-height: 1.6;
-  padding-top: 2%;
 }
 .tabs .tabs-items .col-12 {
   display: none;
+}
+.services-middle-images {
+  margin-top: 6%;
 }
