@@ -524,20 +524,23 @@ footer .copyright {
 .tabs .tabs-links .tabs-link:hover {
   background-color: #5f9fb9;
 }
+.selected-link {
+  background-color: #5f9fb9;
+}
 .tabs .tabs-items .tabs-item {
+  display: none;
+}
+.tabs .tabs-items .selected {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
-.tabs .tabs-items .tabs-item .tabs-item-content {
+.tabs .tabs-items .selected .tabs-item-content {
   width: 48%;
 }
-.tabs .tabs-items .tabs-item .tabs-item-content p {
+.tabs .tabs-items .selected .tabs-item-content p {
   text-align: justify;
   line-height: 1.6;
-}
-.tabs .tabs-items .col-12 {
-  display: none;
 }
 .services-middle-images {
   margin-top: 6%;

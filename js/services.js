@@ -13,8 +13,11 @@ class TabsLinks {
     // methods
     // Step 10: Have the tabContent toggle off and on based on our Content class's method 
     linkClick() {
+        const tabs = document.querySelectorAll('.tabs-link')
+        tabs.forEach(tab => tab.classList.remove('selected-link'))
+        this.tabItems.classList.add('selected-link')
         this.tabContent.toggleContent();
-      }    
+     }
  }
  // Step 6: Create Content class definition and pass in the tabContent reference to the DOM element
  class Content {
@@ -27,8 +30,8 @@ class TabsLinks {
     // Step 9: Create a method that can be called to toggle our tabElement off and on
     toggleContent() {
     const tabContents = document.querySelectorAll('.tabs-item')
-    tabContents.forEach(tabContent => tabContent.classList.remove('col-12'))
-      this.tabElement.classList.add('col-12');
+    tabContents.forEach(tabContent => tabContent.classList.remove('selected'))
+      this.tabElement.classList.add('selected');
     }
   }
   
