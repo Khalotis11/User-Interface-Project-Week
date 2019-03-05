@@ -170,6 +170,13 @@ h3 {
   font-weight: Bold;
   margin-bottom: 1%;
 }
+h4 {
+  font-size: 2rem;
+  font-weight: Bold;
+}
+h5 {
+  font-size: 2rem;
+}
 .nav-bar {
   position: fixed;
   z-index: 1;
@@ -585,4 +592,7 @@ footer .copyright {
   .services-middle-images {
     margin-left: 20px;
   }
+}
+.contact-image {
+  background-image: url(../img/contact/contact-jumbotron.png);
 }
