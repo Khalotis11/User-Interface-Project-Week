@@ -50,9 +50,10 @@
 					  <!--main-image-->
 			  </header>
 <div class="container contact-container">
-  
-<h1>Get In Touch</h1>
+
+ <div class="contact-top-content">
 <div class="contact-email">
+<h1>Get In Touch</h1>
 <h5>Email Address</h5>
 <form class="email">
 		<input
@@ -71,22 +72,27 @@
 	  </form>
 </div><!--buildings-input-->
 
-<div>
+<div class="coment">
 	<h5>Provide a brief overview of your project needs:</h5>
 	<form class="coment-content">
 		<input class="coment-input" type="text"/>
 	</form>
-</div>
+</div><!--coment-->
+
 <div class="checkbox">
 <form>
-	<input type="radio" name="business" value="Bike" checked="checked"> I am a small business<br>
-	<input type="radio" name="owner" value="resident"> I am a residential owner<br>
-	<input type="radio" name="corporation" value="Corporation"> I am a corporation<br>
-	<input class="submit-button" type="submit" value="Submit">
+	<input  type="radio" name="business" value="Bike" checked="checked"><span>I am a small business</span><br>
+	<input  type="radio" name="owner" value="resident"><span>I am a residential owner</span><br>
+	<input  type="radio" name="corporation" value="Corporation"><span> I am a corporation</span><br>
+	<!-- <input class="submit-button" type="submit" value="Submit"> -->
+	<button class="submit-button">Submit</button>
   </form>
 </div><!--checkbox-->
+ </div><!--contact-top-content-->
+
+ <div class="contact-middle-content">
 <div class="locations">
-<h1>Where We Work</h1>
+<h1 class="locatin-header">Where We Work</h1>
 
 <h4>New York</h4>
 <p>123 Lane</p>
@@ -104,7 +110,9 @@
 <p>Mountain Street</p>
 <p>Suite 105</p>
 <p>San Diego, CA 22345</p>
-</div><!--locations-->			
+</div><!--locations-->	
+</div><!--contact-middle-content-->
+
 </div><!--container contact-container-->
  <!-- FOOTER CONTENT  -->
  <footer>
