@@ -13,3 +13,9 @@ class NavButton {
 }
 
 const menuButton = document.querySelectorAll(".navigation-button").forEach(button => new NavButton(button));
+
+window.onload = function() {
+    var logo = document.getElementById("title");
+    TweenLite.from(logo, 2, {opacity:0, left:"300px"});
+  }
+
