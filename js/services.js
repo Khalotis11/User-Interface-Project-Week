@@ -41,3 +41,6 @@ const tabs = document.querySelectorAll('.tabs-link');
 // Step 2: Iterate over each element from our NodeList and create a new class called TabsLinks. 
 tabs.forEach(tabItems => new TabsLinks(tabItems));
   
+// GSAP
+
+  TweenLite.from(".services-title", 2, {opacity:0, left:"300px"});
