@@ -18,6 +18,9 @@ window.onload = function() {
     var logo = document.getElementsByClassName("title");
     TweenLite.from(logo, 2, {opacity:0, left:"300px"});
   }
+  var tl = new TimelineMax({repeat:24, repeatDelay:0.4, yoyo:true});
+tl.staggerTo("h1", 0.1, {className:"+=superShadow", top:"-=10px", ease:Power1.easeIn}, "0.1", "start")
+
 
 
 TweenLite.from(".middle-button", 2, {opacity:0, left:"300px"});
@@ -91,7 +94,3 @@ function onResize() {
     requestId = requestAnimationFrame(updateScroller);
   }
 }
-
-Resources
-
-

@@ -138,6 +138,7 @@ table {
 }
 html {
   font-size: 62.5%;
+  background-color: #F1F1F1;
 }
 .container {
   font-size: 1.6rem;
@@ -543,6 +544,7 @@ footer .copyright {
   border: 2px solid #222222;
   padding: 2% 5%;
   font-size: 1.9rem;
+  text-align: center;
   cursor: pointer;
 }
 @media (max-width:500px) {
@@ -592,6 +594,12 @@ footer .copyright {
   .services-middle-images {
     margin-left: 20px;
   }
+}
+.superShadow {
+  text-shadow: 0 1px 0 hsl(174, 5%, 80%), 0 2px 0 hsl(174, 5%, 75%), 0 3px 0 hsl(174, 5%, 70%), 0 4px 0 hsl(174, 5%, 66%), 0 5px 0 hsl(174, 5%, 64%), 0 6px 0 hsl(174, 5%, 62%), 0 7px 0 hsl(174, 5%, 61%), 0 8px 0 hsl(174, 5%, 60%), 0 0 5px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.2), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.2), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.3);
+}
+strong {
+  font-size: 200px;
 }
 .contact-container {
   width: 100%;
