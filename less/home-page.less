@@ -1,0 +1,281 @@
+.main-image {
+  position: relative;
+  .jumbotron-image {
+    width: 1425px;
+    max-width: 100%;
+    height: 90vh;
+    @media @mobile {
+      height: 60vh;
+    }
+  }
+  h2 {
+    position: absolute;
+    bottom: 0;
+    bottom: 1%;
+    left: 14%;
+    letter-spacing: 2px;
+    line-height: 1.9;
+    color: @white;
+    font-size: 7rem;
+    font-weight: bold;
+    @media @mobile {
+      font-size: 4rem;
+      left: 20px;
+      bottom: 10px;
+    }
+  }
+}
+.top-content {
+  .first-top-content {
+    .first-mixins;
+    width: 100%;
+    margin: 4% 0;
+    @media @mobile {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .text-content {
+      .second-mixins;
+      width: 45%;
+      margin: 3% 0;
+      @media @mobile {
+        width: 100%;
+      }
+      p {
+        line-height: 1.6;
+      }
+      .button {
+        border: 1px solid @blackish;
+        width: 40%;
+        padding: 4% 6%;
+        text-align: center;
+        @media @mobile {
+          width: 100%;
+          margin-top: 3%;
+        }
+      }
+    }
+    img {
+      width: 45%;
+      @media @mobile {
+        width: 100%;
+      }
+    }
+  }
+}
+.top-content {
+  .second-top-content {
+    .third-mixins;
+    width: 100%;
+    margin: 4% 0;
+    @media @mobile {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .text-content {
+      .second-mixins;
+      width: 45%;
+      margin: 3% 0;
+      @media @mobile {
+        width: 100%;
+      }
+      p {
+        line-height: 1.6;
+      }
+      .button {
+        border: 1px solid @blackish;
+        width: 40%;
+        padding: 4% 6%;
+        text-align: center;
+        @media @mobile {
+          width: 100%;
+          margin-top: 3%;
+        }
+      }
+    }
+    img {
+      width: 45%;
+      @media @mobile {
+        width: 100%;
+      }
+    }
+  }
+}
+.middle-content {
+  h1 {
+    margin-top: 7%;
+  }
+  .middle-text-content {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    .middle-button {
+      width: 30%;
+      padding: 3% 6%;
+      text-align: center;
+      letter-spacing: 0.7rem;
+      background-color: @very-light-gray;
+      font-size: 1.8rem;
+      position: absolute;
+      top: 36%;
+      @media @mobile {
+        width: 90%;
+        padding: 10% 15%;
+        left: 5%;
+        top: 27%;
+        font-size: 2.8rem;
+      }
+    }
+    .button1,
+    .button3 {
+      left: 70%;
+      @media @mobile {
+        width: 90%;
+        padding: 10% 15%;
+        left: 5%;
+        top: 27%;
+        font-size: 2.8rem;
+      }
+    }
+    .cover-image1 {
+      background-image: url(../img/home/home-villas-img.png);
+      height: 30vh;
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      margin: 8% 0 8% 0;
+      @media @mobile {
+        margin-bottom: 25%;
+      }
+    }
+    p {
+      width: 50%;
+      text-align: justify;
+      margin: 2% 25%;
+      @media @mobile {
+        margin: 2% 15%;
+        width: 70%;
+      }
+    }
+  }
+  .cover-image2 {
+    background-image: url(../img/home/home-outskirts-img.png);
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin: 8% 0 8% 0;
+    @media @mobile {
+      margin-bottom: 25%;
+    }
+  }
+  .cover-image3 {
+    background-image: url(../img/home/home-the-blocks-img.png);
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin: 8% 0 8% 0;
+    @media @mobile {
+      margin-bottom: 25%;
+    }
+  }
+}
+// SERVICES-PAGE
+.main-image {
+  .services-image {
+    width: 1425px;
+    max-width: 100%;
+    @media @mobile {
+      height: 45vh;
+    }
+  }
+}
+.services-top-content {
+  margin: 4% 0;
+}
+.tabs {
+  .tabs-links {
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 0 3% 0;
+    @media @mobile {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    .tabs-link {
+      border: 2px solid @blackish;
+      padding: 2% 5%;
+      font-size: 1.9rem;
+      text-align: center;
+      cursor: pointer;
+      @media @mobile {
+        padding: 5% 0 5% 0;
+        margin-top: 3%;
+      }
+      &:hover {
+        background-color: @tabs-bc;
+        color: white;
+      }
+    }
+  }
+}
+.selected-link {
+  background-color: @tabs-bc;
+  color: white;
+}
+.tabs {
+  .tabs-items {
+    .tabs-item {
+      display: none;
+    }
+    .selected {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      @media @mobile {
+        display: flex;
+        flex-direction: column;
+      }
+      .tabs-item-content {
+        width: 48%;
+        @media @mobile {
+          width: 100%;
+        }
+        p {
+          text-align: justify;
+          line-height: 1.6;
+        }
+      }
+    }
+  }
+}
+.services-middle-images {
+  margin-top: 6%;
+  @media @mobile {
+    margin-left: 20px;
+  }
+}
+
+.superShadow {
+  text-shadow:     0 1px 0 hsl(174,5%,80%),
+                     0 2px 0 hsl(174,5%,75%),
+                     0 3px 0 hsl(174,5%,70%),
+                     0 4px 0 hsl(174,5%,66%),
+                     0 5px 0 hsl(174,5%,64%),
+                     0 6px 0 hsl(174,5%,62%),
+                     0 7px 0 hsl(174,5%,61%),
+                     0 8px 0 hsl(174,5%,60%),
+    
+                     0 0 5px rgba(0,0,0,.05),
+                    0 1px 3px rgba(0,0,0,.2),
+                    0 3px 5px rgba(0,0,0,.2),
+                   0 5px 10px rgba(0,0,0,.2),
+                  0 10px 10px rgba(0,0,0,.2),
+                  0 20px 20px rgba(0,0,0,.3);
+}
+
+strong{
+  font-size:200px;
+}

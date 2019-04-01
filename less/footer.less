@@ -1,0 +1,52 @@
+footer {
+  background-color: @footer-b-color;
+  .footer {
+    display: flex;
+    width: 100%;
+    padding: 5% 0;
+    font-family: "Roboto";
+    margin-top: 6%;
+    .fourth-mixins;
+    @media @mobile {
+      display: flex;
+      flex-direction: column;
+    }
+    .email-content {
+      width: 35%;
+      line-height: 1.6;
+      @media @mobile {
+        width: 100%;
+        margin: 1% 0 0 5%;
+      }
+      .email-input {
+        width: 77%;
+        padding: 2% 0;
+        font-size: 1.6rem;
+        border-radius: 6px;
+        margin-top: 1%;
+      }
+    }
+    .new-york,
+    .florida,
+    .california {
+      width: 14%;
+      line-height: 1.6;
+      @media @mobile {
+        width: 100%;
+        margin: 3% 0 0 5%;
+      }
+    }
+    p {
+      color: @white;
+      font-size: 1.5rem;
+    }
+  }
+  .copyright {
+    text-align: center;
+    color: @white;
+    @media @mobile {
+      text-align: left;
+      margin-left: 5%;
+    }
+  }
+}
